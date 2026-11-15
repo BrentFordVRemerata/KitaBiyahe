@@ -1,0 +1,61 @@
+{
+  "app": "KitaBiyahe",
+  "schema": 1,
+  "settings": {
+    "fuelUnit": "kmPerLiter",
+    "efficiencyKmL": null,
+    "efficiencySource": "unknown",
+    "fuelPriceCents": null,
+    "reservePerKmCents": null,
+    "reduceMotion": false,
+    "useTaglish": true
+  },
+  "records": [
+    {
+      "id": "demo-complete-2026-11-14",
+      "workDate": "2026-11-14T11:19:57.397623",
+      "createdAt": "2026-11-14T11:23:22.509942",
+      "updatedAt": "2026-11-14T11:23:22.509942",
+      "input": {
+        "earningsMode": "quick",
+        "quickEarningsCents": 120000,
+        "items": [],
+        "afterPlatformFeesConfirmed": true,
+        "fuelMethod": "distance",
+        "manualFuelCents": null,
+        "distanceKm": 100.0,
+        "efficiencyKmL": 40.0,
+        "efficiencySource": "estimate",
+        "fuelPriceCents": 6500,
+        "otherCostCents": 8000,
+        "reservePerKmCents": 100,
+        "hours": null,
+        "targetCents": null,
+        "notes": "Fictional complete example: 1200 pesos earnings, 100 km at 40 km/L and 65 pesos/L."
+      }
+    },
+    {
+      "id": "demo-incomplete-2026-11-14",
+      "workDate": "2026-11-14T12:02:41.867100",
+      "createdAt": "2026-11-14T12:03:34.499318",
+      "updatedAt": "2026-11-14T12:08:21.640092",
+      "input": {
+        "earningsMode": "quick",
+        "quickEarningsCents": 50000,
+        "items": [],
+        "afterPlatformFeesConfirmed": true,
+        "fuelMethod": "unknown",
+        "manualFuelCents": null,
+        "distanceKm": null,
+        "efficiencyKmL": null,
+        "efficiencySource": "unknown",
+        "fuelPriceCents": null,
+        "otherCostCents": null,
+        "reservePerKmCents": null,
+        "hours": null,
+        "targetCents": null,
+        "notes": "Fictional incomplete example: 500 pesos earnings, costs still unknown."
+      }
+    }
+  ]
+}

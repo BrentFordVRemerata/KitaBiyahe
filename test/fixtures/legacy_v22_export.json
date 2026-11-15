@@ -1,0 +1,118 @@
+{
+  "version": 22,
+  "settings": {
+    "efficiency": 40,
+    "fuelPrice": 65,
+    "reservePerKm": 1,
+    "target": 900,
+    "efficiencySource": "measured",
+    "preferredFuelMethod": "distance"
+  },
+  "records": [
+    {
+      "id": "fixture-itemized",
+      "date": "2026-11-14",
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "input": {
+        "earnings": 1130,
+        "distanceKm": 100,
+        "hours": 8.5,
+        "fuelPrice": 65,
+        "efficiency": 40,
+        "manualFuelCost": null,
+        "otherCost": 80,
+        "reservePerKm": 1,
+        "target": 900,
+        "fuelMethod": "distance",
+        "date": "2026-11-14",
+        "notes": "Fictional itemized fixture",
+        "efficiencySource": "measured",
+        "earningsMode": "itemized",
+        "earningsBasis": "net-after-fees",
+        "earningEntries": [
+          {
+            "id": "job-1",
+            "kind": "jobs",
+            "source": "Grab",
+            "amount": 1000,
+            "reference": "FICTIONAL-JOB"
+          },
+          {
+            "id": "tip-1",
+            "kind": "tip",
+            "source": "Direct / cash booking",
+            "amount": 50,
+            "reference": "FICTIONAL-TIP"
+          },
+          {
+            "id": "bonus-1",
+            "kind": "bonus",
+            "source": "MOVE IT",
+            "amount": 100,
+            "reference": "FICTIONAL-BONUS"
+          },
+          {
+            "id": "adjustment-1",
+            "kind": "adjustment",
+            "source": "Grab",
+            "amount": -20,
+            "reference": "FICTIONAL-ADJUSTMENT"
+          }
+        ],
+        "ledgerIssues": []
+      }
+    },
+    {
+      "id": "fixture-unknown",
+      "date": "2026-11-14",
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "input": {
+        "earnings": 200,
+        "distanceKm": null,
+        "hours": null,
+        "fuelPrice": null,
+        "efficiency": null,
+        "manualFuelCost": null,
+        "otherCost": null,
+        "reservePerKm": null,
+        "target": null,
+        "fuelMethod": "unknown",
+        "date": "2026-11-14",
+        "notes": "",
+        "efficiencySource": "unspecified",
+        "earningsMode": "quick",
+        "earningsBasis": "net-after-fees",
+        "earningEntries": [],
+        "ledgerIssues": []
+      }
+    },
+    {
+      "id": "fixture-zero",
+      "date": "2026-11-14",
+      "createdAt": "2026-11-14T00:00:00Z",
+      "updatedAt": "2026-11-14T00:00:00Z",
+      "input": {
+        "earnings": 0,
+        "distanceKm": 0,
+        "hours": 0,
+        "fuelPrice": null,
+        "efficiency": null,
+        "manualFuelCost": 0,
+        "otherCost": 0,
+        "reservePerKm": 0,
+        "target": 0,
+        "fuelMethod": "manual",
+        "date": "2026-11-14",
+        "notes": "",
+        "efficiencySource": "unspecified",
+        "earningsMode": "quick",
+        "earningsBasis": "net-after-fees",
+        "earningEntries": [],
+        "ledgerIssues": []
+      }
+    }
+  ],
+  "exportedAt": "2026-11-14T00:00:00Z"
+}

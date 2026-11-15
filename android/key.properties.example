@@ -1,0 +1,6 @@
+# Copy to key.properties locally. Keep the actual key and passwords private.
+# Use an absolute storeFile path with forward slashes on Windows.
+storeFile=
+storePassword=
+keyAlias=
+keyPassword=

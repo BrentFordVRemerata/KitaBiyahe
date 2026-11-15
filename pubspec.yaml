@@ -1,0 +1,24 @@
+name: kitabiyahe
+version: 0.4.3+4
+description: Rider-first, local-first Philippine shift earnings and operating-cost estimator.
+publish_to: none
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.6
+  file_selector: ^1.1.0
+  share_plus: ^13.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/brand/mark.png
